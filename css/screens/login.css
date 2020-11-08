@@ -27,12 +27,12 @@
   font-size: 18px;
   margin-bottom: 25px;
   -webkit-appearance: none;
+  appearance: none;
 }
 
 #login-form input:not([type="submit"]) {
   border-bottom: var(--main-border);
   transition: border-color 0.3s ease-in-out;
-  -webkit-appearance: none;
 }
 
 #login-form input::placeholder {
@@ -48,8 +48,6 @@
   cursor: pointer;
   padding: 20px 0px;
   border-radius: 5px;
-  -webkit-appearance: none;
-  -webkit-appearance: none;
 }
 
 #login-form a {
